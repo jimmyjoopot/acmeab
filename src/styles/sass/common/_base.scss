@@ -8,6 +8,12 @@ body {
 section, footer {
     width: 100%;
 }
+section:nth-child(2n) {
+    background-color: $green;
+}
+footer {
+    background-color: $green;
+}
 section.green, footer.green {
     background-color: $green;
 }
@@ -17,9 +23,7 @@ section.blue, footer.blue {
 section.pink, footer.pink {
     background-color: $pink;
 }
-section:nth-child(2n+1) {
-    background-color: white;
-}
+
 section .wrapper {
     width: 80%;
     margin-left: auto;
