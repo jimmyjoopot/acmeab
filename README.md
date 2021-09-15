@@ -1,5 +1,5 @@
 ## Installationsinstruktioner
-Allt är med i git så borde funka out of the box. Node.js (npm) bör vara installerat, även node-nodeles. Om man vill köra om installation så, 'npm install'.
+Node/Reacts/sass-stack. Allt är med i git så borde funka out of the box. Node.js (npm) bör vara installerat, även node-modules. Om man vill köra om installation så, 'npm install'.
 
 'npm start' för att köra lokal server på http://localhost:3000.
 
