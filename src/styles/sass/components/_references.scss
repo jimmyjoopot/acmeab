@@ -1,0 +1,35 @@
+#References {
+    h3 {
+        text-transform: unset;
+        font-size: 26px;
+    }
+    h3::after {
+        content:unset;
+    }
+    .item {
+        width: 100%;
+        position: relative;
+        float: left;
+        img {
+            width: 100%;
+            float: left;
+        }
+        .wrap {
+            float: left;
+            h3 {
+                margin: 8px 0px;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 992px) {
+    #References .item {
+        width: 48%;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+}
+

@@ -1,0 +1,84 @@
+iframe {
+    width: 100%;
+}
+.sort-selector-wrapper select {
+    width: 100%;
+    height: 36px;
+    font-size: 22px;
+}
+button {
+    background-color: $font-color;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.sort-selector-wrapper {
+    width: 100%;
+    margin-top: 20px;
+    p, select {
+        float: left;
+        margin-right: 5px;
+    }
+    select {
+        margin-top: -2px;
+    }
+}
+.contacts {
+    height: 0px;
+    transition: height 0.3s;
+    overflow: hidden;
+    &.visible {
+        height: 180px;
+    }
+    .column-header {
+        margin-top: 12px;
+        margin-bottom: 8px;
+        position: relative;
+        width: 100%;
+        float: left;
+    }
+}
+.column-header > div, .employee-list > .row > div {
+    width: 33.33%;
+    float: left;
+    font-size: 13px;
+}
+.employee-list > .row > div {
+    line-height: 20px;
+}
+.column-header > div {
+    font-weight: bold;
+    font-size: 16px;
+}
+.employee-list {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 34px;
+}
+@media screen and (min-width: 768px) {
+    .sort-selector-wrapper {
+        width: 30%;
+        margin-top: 20px;
+        margin-right: 70%;
+    }
+    .column-header > div, .employee-list > .row > div {
+        font-size: 17px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #Contact {
+        button {
+            width: 250px;
+        }
+    }
+}

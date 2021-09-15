@@ -1,0 +1,34 @@
+body {
+    background-color: white;
+}
+.app {
+    top: 70px;
+    position: relative;
+}
+section, footer {
+    width: 100%;
+}
+section.green, footer.green {
+    background-color: $green;
+}
+section.blue, footer.blue {
+    background-color: $blue;
+}
+section.pink, footer.pink {
+    background-color: $pink;
+}
+section:nth-child(2n+1) {
+    background-color: white;
+}
+section .wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 0px;
+    display: grid;
+}
+@media screen and (min-width: 992px) {
+    section .wrapper, footer .outer-wrapper {
+        max-width: 1200px;
+    }
+}

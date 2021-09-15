@@ -1,0 +1,38 @@
+header {
+    z-index: 10;
+    width: 80%;
+    position: fixed;
+    height: 50px;
+    padding: 10px 10%;
+    top: 0px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    img {
+        height: 40px;
+        float: left;
+        margin-top: 5px;
+    }
+    nav a {
+        text-transform: uppercase;
+        font-size: 26px;
+        color: black;
+        float: right;
+        line-height: 50px;
+        padding: 0px 20px;
+        transition: color 0.3s;
+        display: none;
+    }
+    nav a:hover {
+        color: rgb(109, 109, 109);
+    }
+}
+@media screen and (min-width: 768px) {
+ 
+}
+@media screen and (min-width: 992px) {
+    header {
+        nav a {
+            display: block;
+        }
+    }
+}
